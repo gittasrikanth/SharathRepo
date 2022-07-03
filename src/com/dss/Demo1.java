@@ -7,6 +7,8 @@ public class Demo1 {
 		
 		
 		System.out.println("this is sample method.....");
+		System.out.println("this is one java class.....");
+		
 	}
 
 }
