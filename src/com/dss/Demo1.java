@@ -12,6 +12,11 @@ public class Demo1 {
 	{
 		System.out.println(y*y*y);
 	}
+	
+	public void m3(int y)
+	{
+		System.out.println(y*y*y*y);
+	}
 
 	
 	public static void main(String[] args) {
@@ -21,6 +26,7 @@ public class Demo1 {
 		demo1.m1(50);
 		
 		demo1.m2(60);
+		demo1.m3(60);
 		
 	}
 
