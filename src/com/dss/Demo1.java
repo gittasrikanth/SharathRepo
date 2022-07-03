@@ -7,6 +7,11 @@ public class Demo1 {
 	{
 		System.out.println(x*x);
 	}
+	
+	public void m2(int y)
+	{
+		System.out.println(y*y*y);
+	}
 
 	
 	public static void main(String[] args) {
@@ -14,6 +19,8 @@ public class Demo1 {
 		Demo1 demo1=new Demo1();
 		
 		demo1.m1(50);
+		
+		demo1.m2(60);
 		
 	}
 
