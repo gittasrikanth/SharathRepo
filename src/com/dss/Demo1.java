@@ -19,6 +19,11 @@ public class Demo1 {
 	}
 
 	
+	public void m5(int u)
+	{
+		System.out.println(u*u*u*u*u);
+	}
+	
 	public static void main(String[] args) {
 		
 		Demo1 demo1=new Demo1();
@@ -27,6 +32,7 @@ public class Demo1 {
 		
 		demo1.m2(60);
 		demo1.m3(60);
+		demo1.m5(5);
 		
 	}
 
