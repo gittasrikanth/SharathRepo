@@ -30,6 +30,11 @@ public class Demo1 {
 		System.out.println(u*u*u*u*u);
 	}
 	
+
+	public void m7(int r)
+	{
+		System.out.println(r*r*r*r*r*r*r);
+	}
 	public static void main(String[] args) {
 		
 		Demo1 demo1=new Demo1();
@@ -41,6 +46,8 @@ public class Demo1 {
 		demo1.m5(5);
 		
 		demo1.m4(609);
+		
+		demo1.m7(7);
 		
 		
 	}
