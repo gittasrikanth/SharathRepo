@@ -31,9 +31,9 @@ public class Demo1 {
 	}
 	
 
-	public void m7(int r)
+	public void m7(int m)
 	{
-		System.out.println(r*r*r*r*r*r*r);
+		System.out.println(m*m*m*m*m*m*m);
 	}
 	public static void main(String[] args) {
 		
@@ -47,7 +47,7 @@ public class Demo1 {
 		
 		demo1.m4(609);
 		
-		demo1.m7(7);
+		
 		
 		
 	}
