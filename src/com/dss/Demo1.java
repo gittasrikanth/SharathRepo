@@ -36,7 +36,7 @@ public class Demo1 {
 		System.out.println(m*m*m*m*m*m*m);
 	}
 	public static void main(String[] args) {
-		
+		Demo1 demo2=new Demo1();
 		Demo1 demo1=new Demo1();
 		
 		demo1.m1(50);
